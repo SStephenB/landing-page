@@ -136,7 +136,7 @@ li>a:active {
 
 .hero {
     text-align: center;
-    background-image: "./images/hex.svg";
+    background-image: "/hex.svg";
 }
 
 .hero-text {
@@ -278,4 +278,8 @@ p {
 
 .hero-text > * {
     font-weight: 500;
+}
+
+.tabs-text {
+    margin-right: 20px;
 }

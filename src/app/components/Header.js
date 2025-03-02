@@ -1,11 +1,10 @@
 'use client'
 import React from 'react';
-import Logo from "../images/logo.svg";
 
 function Header() {
     return (
         <header className='header'>
-            <img src={Logo} alt="Logo"></img>
+            <img src="/logo.svg"></img>
             <nav className='header-nav'>
                 <ul>
                     <li><a href="#features">Features</a></li>
